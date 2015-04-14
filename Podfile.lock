@@ -21,7 +21,7 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - VIMNetworking (1.0.0):
-    - AFNetworking (~> 2.5.2)
+    - AFNetworking
 
 DEPENDENCIES:
   - VIMNetworking (from `https://github.com/FastSociety/VIMNetworking.git`, branch
@@ -34,11 +34,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   VIMNetworking:
-    :commit: b24788cca4e607994a2911907bbf4fcdb0033339
+    :commit: 45c3ab056a71d16c9e25dc22b9d1a3be24747510
     :git: https://github.com/FastSociety/VIMNetworking.git
 
 SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  VIMNetworking: 136cbac429e6e28b304bca93c74afa4b6443e7e1
+  VIMNetworking: 5a7f71756ba64fb1c8ba49f105de7b3f836513db
 
 COCOAPODS: 0.36.3

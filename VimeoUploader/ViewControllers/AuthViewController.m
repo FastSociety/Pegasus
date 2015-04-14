@@ -26,7 +26,7 @@
 
 #import "AuthViewController.h"
 
-#import "VIMAPIClient.h"
+#import <VIMAPIClient.h>
 
 @interface AuthViewController ()
 

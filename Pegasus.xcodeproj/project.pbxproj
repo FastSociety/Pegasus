@@ -24,7 +24,6 @@
 		508B067F1A488F5200DC2375 /* CameraRollDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 508B067E1A488F5200DC2375 /* CameraRollDatasource.m */; };
 		508B06821A488F6B00DC2375 /* MyVideosDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 508B06811A488F6B00DC2375 /* MyVideosDatasource.m */; };
 		508B06851A488FED00DC2375 /* Datasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 508B06841A488FED00DC2375 /* Datasource.m */; };
-		508B07A61A48961600DC2375 /* libVIMNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A31A4895FB00DC2375 /* libVIMNetworking.a */; };
 		508B07A81A48962000DC2375 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A71A48962000DC2375 /* Social.framework */; };
 		508B07AA1A48962500DC2375 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A91A48962500DC2375 /* Accounts.framework */; };
 		508B07AC1A48962D00DC2375 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07AB1A48962D00DC2375 /* MobileCoreServices.framework */; };
@@ -48,7 +47,6 @@
 		50C02F191A7C10AF006B730D /* AnimatedLoadingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C02EFD1A7AD56D006B730D /* AnimatedLoadingBar.m */; };
 		50C02F271A7C1119006B730D /* MetadataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C02EF21A7AD00C006B730D /* MetadataViewController.m */; };
 		50C02F281A7C1120006B730D /* MetadataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C02EF31A7AD00C006B730D /* MetadataViewController.xib */; };
-		50C02F291A7C1161006B730D /* libVIMNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A31A4895FB00DC2375 /* libVIMNetworking.a */; };
 		50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A91A48962500DC2375 /* Accounts.framework */; };
 		50C02F321A7C1372006B730D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A71A48962000DC2375 /* Social.framework */; };
 		7E8EB27393DD526C1D30B174 /* Pods_Pegasus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87127870E313975F8C25DE /* Pods_Pegasus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -63,40 +61,12 @@
 			remoteGlobalIDString = 508B06321A48867000DC2375;
 			remoteInfo = VimeoUploader;
 		};
-		508B07A21A4895FB00DC2375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AB633AB218F364ED00971630;
-			remoteInfo = VIMNetworking;
-		};
-		508B07A41A4895FB00DC2375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = AB633AC218F364ED00971630;
-			remoteInfo = VIMNetworkingTests;
-		};
 		50C02F121A7BF417006B730D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 508B062B1A48867000DC2375 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 50C02F081A7BF417006B730D;
 			remoteInfo = UploadExtension;
-		};
-		50C02F2A1A7C1193006B730D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AB633AB118F364ED00971630;
-			remoteInfo = VIMNetworking;
-		};
-		50ECAB0D1A5DF13F00C8F3AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = AB633AB118F364ED00971630;
-			remoteInfo = VIMNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -147,7 +117,6 @@
 		508B06811A488F6B00DC2375 /* MyVideosDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVideosDatasource.m; sourceTree = "<group>"; };
 		508B06831A488FED00DC2375 /* Datasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datasource.h; sourceTree = "<group>"; };
 		508B06841A488FED00DC2375 /* Datasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datasource.m; sourceTree = "<group>"; };
-		508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = VIMNetworking.xcodeproj; sourceTree = "<group>"; };
 		508B07A71A48962000DC2375 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		508B07A91A48962500DC2375 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		508B07AB1A48962D00DC2375 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -195,7 +164,6 @@
 				508B07AC1A48962D00DC2375 /* MobileCoreServices.framework in Frameworks */,
 				508B07AA1A48962500DC2375 /* Accounts.framework in Frameworks */,
 				508B07A81A48962000DC2375 /* Social.framework in Frameworks */,
-				508B07A61A48961600DC2375 /* libVIMNetworking.a in Frameworks */,
 				7E8EB27393DD526C1D30B174 /* Pods_Pegasus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +181,6 @@
 			files = (
 				50C02F321A7C1372006B730D /* Social.framework in Frameworks */,
 				50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */,
-				50C02F291A7C1161006B730D /* libVIMNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +232,6 @@
 				508B06631A488BE600DC2375 /* Cells */,
 				508B06431A48867000DC2375 /* Images.xcassets */,
 				508B06451A48867000DC2375 /* LaunchScreen.xib */,
-				508B06861A4895FA00DC2375 /* Submodules */,
 				508B07AD1A48964800DC2375 /* Frameworks */,
 				508B06361A48867000DC2375 /* Supporting Files */,
 			);
@@ -356,23 +322,6 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		508B06861A4895FA00DC2375 /* Submodules */ = {
-			isa = PBXGroup;
-			children = (
-				508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */,
-			);
-			path = Submodules;
-			sourceTree = SOURCE_ROOT;
-		};
-		508B07451A4895FB00DC2375 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				508B07A31A4895FB00DC2375 /* libVIMNetworking.a */,
-				508B07A51A4895FB00DC2375 /* VIMNetworkingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		508B07AD1A48964800DC2375 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,7 +398,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				50ECAB0E1A5DF13F00C8F3AA /* PBXTargetDependency */,
 				50C02F131A7BF417006B730D /* PBXTargetDependency */,
 			);
 			name = Pegasus;
@@ -486,7 +434,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				50C02F2B1A7C1193006B730D /* PBXTargetDependency */,
 			);
 			name = PegasusExtension;
 			productName = UploadExtension;
@@ -546,12 +493,6 @@
 			mainGroup = 508B062A1A48867000DC2375;
 			productRefGroup = 508B06341A48867000DC2375 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 508B07451A4895FB00DC2375 /* Products */;
-					ProjectRef = 508B07441A4895FB00DC2375 /* VIMNetworking.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				508B06321A48867000DC2375 /* Pegasus */,
@@ -560,23 +501,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		508B07A31A4895FB00DC2375 /* libVIMNetworking.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libVIMNetworking.a;
-			remoteRef = 508B07A21A4895FB00DC2375 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		508B07A51A4895FB00DC2375 /* VIMNetworkingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = VIMNetworkingTests.xctest;
-			remoteRef = 508B07A41A4895FB00DC2375 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		508B06311A48867000DC2375 /* Resources */ = {
@@ -720,16 +644,6 @@
 			target = 50C02F081A7BF417006B730D /* PegasusExtension */;
 			targetProxy = 50C02F121A7BF417006B730D /* PBXContainerItemProxy */;
 		};
-		50C02F2B1A7C1193006B730D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VIMNetworking;
-			targetProxy = 50C02F2A1A7C1193006B730D /* PBXContainerItemProxy */;
-		};
-		50ECAB0E1A5DF13F00C8F3AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VIMNetworking;
-			targetProxy = 50ECAB0D1A5DF13F00C8F3AA /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -829,9 +743,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = Pegasus;
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Submodules/VIMNetworking/**";
@@ -847,9 +759,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = Pegasus;
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Submodules/VIMNetworking/**";

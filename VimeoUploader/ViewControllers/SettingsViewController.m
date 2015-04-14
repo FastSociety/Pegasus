@@ -26,7 +26,7 @@
 
 #import "SettingsViewController.h"
 #import "SettingsCell.h"
-#import "VIMUploadTaskQueue.h"
+#import <VIMUploadTaskQueue.h>
 
 typedef NS_ENUM(NSInteger, SettingsCellType)
 {

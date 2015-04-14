@@ -30,11 +30,11 @@
 
 #import "CameraRollDatasource.h"
 #import "CameraRollCell.h"
-#import "VIMUploadTaskQueue.h"
-#import "VIMVideoAsset.h"
+#import <VIMUploadTaskQueue.h>
+#import <VIMVideoAsset.h>
 #import "MetadataViewController.h"
-#import "VIMAPIClient.h"
-#import "VIMVideoMetadata.h"
+#import <VIMAPIClient.h>
+#import <VIMVideoMetadata.h>
 
 static NSString *CameraRollTitle = @"Camera Roll";
 

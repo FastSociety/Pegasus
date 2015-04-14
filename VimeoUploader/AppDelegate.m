@@ -26,19 +26,19 @@
 
 #import "AppDelegate.h"
 
-#import "VIMSessionConfiguration.h"
-#import "VIMSession.h"
-#import "VIMAccount.h"
-#import "VIMAPIClient.h"
+#import <VIMSessionConfiguration.h>
+#import <VIMSession.h>
+#import <VIMAccount.h>
+#import <VIMAPIClient.h>
 #import "LaunchViewController.h"
 #import "AuthViewController.h"
 #import "TabBarController.h"
 #import "CameraRollViewController.h"
 #import "MyVideosViewController.h"
-#import "VIMUploadTaskQueue.h"
-#import "VIMTaskQueueDebugger.h"
-#import "VIMUploadSessionManager.h"
-#import "VIMTaskQueue.h"
+#import <VIMUploadTaskQueue.h>
+#import <VIMTaskQueueDebugger.h>
+#import <VIMUploadSessionManager.h>
+#import <VIMTaskQueue.h>
 #import "KeychainUtility.h"
 
 static NSString *ClientKey = @"YOUR_CLIENT_KEY";

@@ -26,8 +26,8 @@
 
 #import "MetadataViewController.h"
 #import "AnimatedLoadingBar.h"
-#import "VIMVideoAsset.h"
-#import "VIMVideoMetadata.h"
+#import <VIMVideoAsset.h>
+#import <VIMVideoMetadata.h>
 
 static NSString *DescriptionPlaceholder = @"Description";
 
