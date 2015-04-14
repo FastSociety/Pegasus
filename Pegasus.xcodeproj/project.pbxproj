@@ -51,6 +51,7 @@
 		50C02F291A7C1161006B730D /* libVIMNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A31A4895FB00DC2375 /* libVIMNetworking.a */; };
 		50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A91A48962500DC2375 /* Accounts.framework */; };
 		50C02F321A7C1372006B730D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A71A48962000DC2375 /* Social.framework */; };
+		7E8EB27393DD526C1D30B174 /* Pods_Pegasus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87127870E313975F8C25DE /* Pods_Pegasus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AF2350CD1A5D51070095A034 /* StreamDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2350CC1A5D51070095A034 /* StreamDescriptor.m */; };
 /* End PBXBuildFile section */
 
@@ -177,8 +178,11 @@
 		50C02F0C1A7BF417006B730D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C02F0D1A7BF417006B730D /* ExtensionNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ExtensionNavigationController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		50C02F0E1A7BF417006B730D /* ExtensionNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ExtensionNavigationController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8A87127870E313975F8C25DE /* Pods_Pegasus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pegasus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2350CB1A5D51070095A034 /* StreamDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = StreamDescriptor.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AF2350CC1A5D51070095A034 /* StreamDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = StreamDescriptor.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EB15DA127E21D826EB06BE39 /* Pods-Pegasus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegasus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pegasus/Pods-Pegasus.release.xcconfig"; sourceTree = "<group>"; };
+		F6B3958BED28049E58EAAB06 /* Pods-Pegasus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegasus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pegasus/Pods-Pegasus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,7 @@
 				508B07AA1A48962500DC2375 /* Accounts.framework in Frameworks */,
 				508B07A81A48962000DC2375 /* Social.framework in Frameworks */,
 				508B07A61A48961600DC2375 /* libVIMNetworking.a in Frameworks */,
+				7E8EB27393DD526C1D30B174 /* Pods_Pegasus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +220,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0712A7797A20908BD8E629AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6B3958BED28049E58EAAB06 /* Pods-Pegasus.debug.xcconfig */,
+				EB15DA127E21D826EB06BE39 /* Pods-Pegasus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		508B062A1A48867000DC2375 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +238,8 @@
 				508B064F1A48867000DC2375 /* VimeoUploaderTests */,
 				50C02F0A1A7BF417006B730D /* UploadExtension */,
 				508B06341A48867000DC2375 /* Products */,
+				0712A7797A20908BD8E629AB /* Pods */,
+				9B255032BC6D927D470135F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -398,6 +414,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9B255032BC6D927D470135F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A87127870E313975F8C25DE /* Pods_Pegasus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF6F9D091A4C966D00E37482 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,10 +438,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 508B06561A48867000DC2375 /* Build configuration list for PBXNativeTarget "Pegasus" */;
 			buildPhases = (
+				9791063223A77F83C6CCF4F7 /* Check Pods Manifest.lock */,
 				508B062F1A48867000DC2375 /* Sources */,
 				508B06301A48867000DC2375 /* Frameworks */,
 				508B06311A48867000DC2375 /* Resources */,
 				50C02F181A7BF417006B730D /* Embed App Extensions */,
+				950B0654EE527336CD23E469 /* Embed Pods Frameworks */,
+				66797395EE31144E2A0EE911 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -587,6 +614,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		66797395EE31144E2A0EE911 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pegasus/Pods-Pegasus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		950B0654EE527336CD23E469 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pegasus/Pods-Pegasus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9791063223A77F83C6CCF4F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		508B062F1A48867000DC2375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -747,6 +822,7 @@
 		};
 		508B06571A48867000DC2375 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B3958BED28049E58EAAB06 /* Pods-Pegasus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Pegasus.entitlements;
@@ -754,10 +830,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
 				PRODUCT_NAME = Pegasus;
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Submodules/VIMNetworking/**";
@@ -766,6 +838,7 @@
 		};
 		508B06581A48867000DC2375 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB15DA127E21D826EB06BE39 /* Pods-Pegasus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Pegasus.entitlements;
@@ -773,10 +846,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
 				PRODUCT_NAME = Pegasus;
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Submodules/VIMNetworking/**";

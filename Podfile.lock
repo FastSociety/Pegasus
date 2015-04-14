@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection (= 2.5.2)
+    - AFNetworking/NSURLSession (= 2.5.2)
+    - AFNetworking/Reachability (= 2.5.2)
+    - AFNetworking/Security (= 2.5.2)
+    - AFNetworking/Serialization (= 2.5.2)
+    - AFNetworking/UIKit (= 2.5.2)
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - VIMNetworking (1.0.0):
+    - AFNetworking (~> 2.5.2)
+
+DEPENDENCIES:
+  - VIMNetworking (from `https://github.com/FastSociety/VIMNetworking.git`, branch
+    `cocoapod`)
+
+EXTERNAL SOURCES:
+  VIMNetworking:
+    :branch: cocoapod
+    :git: https://github.com/FastSociety/VIMNetworking.git
+
+CHECKOUT OPTIONS:
+  VIMNetworking:
+    :commit: b24788cca4e607994a2911907bbf4fcdb0033339
+    :git: https://github.com/FastSociety/VIMNetworking.git
+
+SPEC CHECKSUMS:
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  VIMNetworking: 136cbac429e6e28b304bca93c74afa4b6443e7e1
+
+COCOAPODS: 0.36.3
