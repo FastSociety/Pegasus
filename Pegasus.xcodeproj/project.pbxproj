@@ -89,7 +89,7 @@
 /* Begin PBXFileReference section */
 		5007A5B81A800FEB007C5BF4 /* Pegasus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Pegasus.entitlements; sourceTree = "<group>"; };
 		5007A5B91A800FF3007C5BF4 /* PegasusExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PegasusExtension.entitlements; sourceTree = "<group>"; };
-		508B06331A48867000DC2375 /* PegasusTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PegasusTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		508B06331A48867000DC2375 /* Pegasus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pegasus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		508B06371A48867000DC2375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508B06381A48867000DC2375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		508B063A1A48867000DC2375 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 		508B06341A48867000DC2375 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				508B06331A48867000DC2375 /* PegasusTest.app */,
+				508B06331A48867000DC2375 /* Pegasus.app */,
 				508B064C1A48867000DC2375 /* PegasusTests.xctest */,
 				50C02F091A7BF417006B730D /* PegasusExtension.appex */,
 			);
@@ -414,7 +414,7 @@
 			);
 			name = Pegasus;
 			productName = VimeoUploader;
-			productReference = 508B06331A48867000DC2375 /* PegasusTest.app */;
+			productReference = 508B06331A48867000DC2375 /* Pegasus.app */;
 			productType = "com.apple.product-type.application";
 		};
 		508B064B1A48867000DC2375 /* PegasusTests */ = {
@@ -804,7 +804,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				PRODUCT_NAME = PegasusTest;
+				OTHER_CODE_SIGN_FLAGS = "--verbose";
+				PRODUCT_NAME = Pegasus;
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 			};
@@ -820,7 +821,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				PRODUCT_NAME = PegasusTest;
+				OTHER_CODE_SIGN_FLAGS = "--verbose";
+				PRODUCT_NAME = Pegasus;
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 			};
