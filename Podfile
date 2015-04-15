@@ -23,3 +23,17 @@ target "PegasusExtension" do
   pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod', :submodules => true
 end
 
+post_install do |installer_representation|
+  installer_representation.project.targets.each do |target|
+    if target.name == 'Pods-PegasusExtension-AFNetworking' || target.name == 'Pods-PegasusExtension-VIMNetworking'
+      target.build_configurations.each do |config|
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'AF_APP_EXTENSIONS=1'
+        config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'UPLOAD_EXTENSION=1'
+      end
+    end
+  end
+end
+
+
+
