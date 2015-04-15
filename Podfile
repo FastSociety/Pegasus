@@ -16,7 +16,7 @@ inhibit_all_warnings!
 use_frameworks!
 
 target "Pegasus" do
-  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod'
+  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod', :submodules => true
 end
 
 # target "VimeoUploaderTests" do

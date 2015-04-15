@@ -31,10 +31,11 @@ EXTERNAL SOURCES:
   VIMNetworking:
     :branch: cocoapod
     :git: https://github.com/FastSociety/VIMNetworking.git
+    :submodules: true
 
 CHECKOUT OPTIONS:
   VIMNetworking:
-    :commit: 45c3ab056a71d16c9e25dc22b9d1a3be24747510
+    :commit: 8998c7976bffe073e94166594e7e438e71e3811a
     :git: https://github.com/FastSociety/VIMNetworking.git
 
 SPEC CHECKSUMS:
