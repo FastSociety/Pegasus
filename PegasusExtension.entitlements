@@ -4,11 +4,11 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.messel.pegasus.com</string>
+		<string>group.fastsociety.cameo</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.messel.pegasus.shared_keychain</string>
+		<string>$(AppIdentifierPrefix)com.fastsociety.pegasus.extension</string>
 	</array>
 </dict>
 </plist>
