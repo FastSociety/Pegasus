@@ -19,6 +19,7 @@ target "Pegasus" do
   pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod', :submodules => true
 end
 
-# target "VimeoUploaderTests" do
-#
-# end
+target "PegasusExtension" do
+  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod', :submodules => true
+end
+

@@ -28,7 +28,7 @@
 
 #import <Photos/Photos.h>
 
-#import <VIMVideoAsset.h>
+#import "VIMVideoAsset.h"
 
 static NSString *CameraRollDatasourceErrorDomain = @"CameraRollDatasourceErrorDomain";
 

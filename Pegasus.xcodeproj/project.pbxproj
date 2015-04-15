@@ -50,6 +50,8 @@
 		50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A91A48962500DC2375 /* Accounts.framework */; };
 		50C02F321A7C1372006B730D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A71A48962000DC2375 /* Social.framework */; };
 		7E8EB27393DD526C1D30B174 /* Pods_Pegasus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87127870E313975F8C25DE /* Pods_Pegasus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9BC78EB11ADEB9B200B7DFE6 /* Pods_Pegasus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC78EB01ADEB9B200B7DFE6 /* Pods_Pegasus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ACB280E8034CE0CF11AB8F76 /* Pods_PegasusExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3A44BB9801DC7437D0E9D /* Pods_PegasusExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AF2350CD1A5D51070095A034 /* StreamDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2350CC1A5D51070095A034 /* StreamDescriptor.m */; };
 /* End PBXBuildFile section */
 
@@ -147,7 +149,11 @@
 		50C02F0C1A7BF417006B730D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50C02F0D1A7BF417006B730D /* ExtensionNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ExtensionNavigationController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		50C02F0E1A7BF417006B730D /* ExtensionNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ExtensionNavigationController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		56D0EFC28FD211ED0DBFA418 /* Pods-PegasusExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusExtension/Pods-PegasusExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		8A87127870E313975F8C25DE /* Pods_Pegasus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pegasus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC78EB01ADEB9B200B7DFE6 /* Pods_Pegasus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Pegasus.framework; path = "Pods/../build/Debug-iphoneos/Pods_Pegasus.framework"; sourceTree = "<group>"; };
+		A9D3A44BB9801DC7437D0E9D /* Pods_PegasusExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PegasusExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE5798BCD25659C510D7822 /* Pods-PegasusExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusExtension/Pods-PegasusExtension.release.xcconfig"; sourceTree = "<group>"; };
 		AF2350CB1A5D51070095A034 /* StreamDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = StreamDescriptor.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AF2350CC1A5D51070095A034 /* StreamDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = StreamDescriptor.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		EB15DA127E21D826EB06BE39 /* Pods-Pegasus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pegasus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pegasus/Pods-Pegasus.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,8 +185,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC78EB11ADEB9B200B7DFE6 /* Pods_Pegasus.framework in Frameworks */,
 				50C02F321A7C1372006B730D /* Social.framework in Frameworks */,
 				50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */,
+				ACB280E8034CE0CF11AB8F76 /* Pods_PegasusExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +200,8 @@
 			children = (
 				F6B3958BED28049E58EAAB06 /* Pods-Pegasus.debug.xcconfig */,
 				EB15DA127E21D826EB06BE39 /* Pods-Pegasus.release.xcconfig */,
+				56D0EFC28FD211ED0DBFA418 /* Pods-PegasusExtension.debug.xcconfig */,
+				ACE5798BCD25659C510D7822 /* Pods-PegasusExtension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -366,7 +376,9 @@
 		9B255032BC6D927D470135F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BC78EB01ADEB9B200B7DFE6 /* Pods_Pegasus.framework */,
 				8A87127870E313975F8C25DE /* Pods_Pegasus.framework */,
+				A9D3A44BB9801DC7437D0E9D /* Pods_PegasusExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -427,9 +439,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50C02F151A7BF417006B730D /* Build configuration list for PBXNativeTarget "PegasusExtension" */;
 			buildPhases = (
+				CF6454152B8C7709433DDCB1 /* Check Pods Manifest.lock */,
 				50C02F051A7BF417006B730D /* Sources */,
 				50C02F061A7BF417006B730D /* Frameworks */,
 				50C02F071A7BF417006B730D /* Resources */,
+				58ECFF942AF723A707DD5716 /* Embed Pods Frameworks */,
+				EE17C6B506963D5254988E78 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -539,6 +554,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		58ECFF942AF723A707DD5716 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusExtension/Pods-PegasusExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		66797395EE31144E2A0EE911 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,6 +612,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6454152B8C7709433DDCB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE17C6B506963D5254988E78 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PegasusExtension/Pods-PegasusExtension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -743,10 +803,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = PegasusTest;
 				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/VIMNetworking/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 			};
 			name = Debug;
 		};
@@ -759,10 +819,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VimeoUploader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = PegasusTest;
 				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/VIMNetworking/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 			};
 			name = Release;
 		};
@@ -802,44 +862,62 @@
 		};
 		50C02F161A7BF417006B730D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D0EFC28FD211ED0DBFA418 /* Pods-PegasusExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = PegasusExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"$PODS_FRAMEWORK_BUILD_PATH\"";
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					UPLOAD_EXTENSION,
+					"UPLOAD_EXTENSION=1",
 					"DEBUG=1",
+					"AF_APP_EXTENSIONS=1",
 				);
 				INFOPLIST_FILE = UploadExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
-					"-all_load",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"VIMNetworking\"",
 				);
+				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_NAME = PegasusExtension;
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/VIMNetworking/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 			};
 			name = Debug;
 		};
 		50C02F171A7BF417006B730D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE5798BCD25659C510D7822 /* Pods-PegasusExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = PegasusExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREPROCESSOR_DEFINITIONS = UPLOAD_EXTENSION;
-				INFOPLIST_FILE = UploadExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
+				FRAMEWORK_SEARCH_PATHS = "\"$PODS_FRAMEWORK_BUILD_PATH\"";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UPLOAD_EXTENSION=1",
+					"AF_APP_EXTENSIONS=1",
 				);
+				INFOPLIST_FILE = UploadExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"VIMNetworking\"",
+				);
+				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
 				PRODUCT_NAME = PegasusExtension;
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/VIMNetworking/**";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 			};
 			name = Release;
 		};

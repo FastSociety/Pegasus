@@ -26,10 +26,10 @@
 
 #import "MyVideosDatasource.h"
 
-#import <VIMRequestOperationManager.h>
-#import <VIMRequestDescriptor.h>
-#import <VIMVideo.h>
-#import <VIMServerResponse.h>
+#import "VIMRequestOperationManager.h"
+#import "VIMRequestDescriptor.h"
+#import "VIMVideo.h"
+#import "VIMServerResponse.h"
 
 static NSString *MyVideosURI = @"/me/videos";
 static NSString *ModelKeyPath = @"data";

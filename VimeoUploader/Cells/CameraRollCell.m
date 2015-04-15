@@ -28,9 +28,9 @@
 
 #import <Photos/Photos.h>
 
-#import <VIMVideoAsset.h>
-#import <VIMTaskQueue.h>
-#import <VIMUploadState.h>
+#import "VIMVideoAsset.h"
+#import "VIMTaskQueue.h"
+#import "VIMUploadState.h"
 
 static void *UploadStateContext = &UploadStateContext;
 static void *UploadProgressContext = &UploadProgressContext;

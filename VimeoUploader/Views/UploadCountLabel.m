@@ -25,7 +25,7 @@
 //
 
 #import "UploadCountLabel.h"
-#import <VIMUploadTaskQueue.h>
+#import "VIMUploadTaskQueue.h"
 
 static void *UploadCountContext = &UploadCountContext;
 

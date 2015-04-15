@@ -26,11 +26,11 @@
 
 #import "MyVideosCell.h"
 
-#import <VIMVideo.h>
-#import <VIMUser.h>
+#import "VIMVideo.h"
+#import "VIMUser.h"
 #import "UIImageView+AFNetworking.h"
-#import <VIMPicture.h>
-#import <VIMPictureCollection.h>
+#import "VIMPicture.h"
+#import "VIMPictureCollection.h"
 
 @interface MyVideosCell ()
 
