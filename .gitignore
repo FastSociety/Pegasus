@@ -29,3 +29,5 @@ DerivedData
 .idea/
 *.LSOverride
 Pods
+Keys.xcconfig
+Keys.plist
