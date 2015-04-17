@@ -50,8 +50,6 @@
 		50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A91A48962500DC2375 /* Accounts.framework */; };
 		50C02F321A7C1372006B730D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508B07A71A48962000DC2375 /* Social.framework */; };
 		7E8EB27393DD526C1D30B174 /* Pods_Pegasus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87127870E313975F8C25DE /* Pods_Pegasus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		9B7BE1BC1AE0176800F8E794 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B7BE1BB1AE0176800F8E794 /* Keys.plist */; };
-		9BC78EB11ADEB9B200B7DFE6 /* Pods_Pegasus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC78EB01ADEB9B200B7DFE6 /* Pods_Pegasus.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		ACB280E8034CE0CF11AB8F76 /* Pods_PegasusExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D3A44BB9801DC7437D0E9D /* Pods_PegasusExtension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AF2350CD1A5D51070095A034 /* StreamDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2350CC1A5D51070095A034 /* StreamDescriptor.m */; };
 /* End PBXBuildFile section */
@@ -152,7 +150,6 @@
 		50C02F0E1A7BF417006B730D /* ExtensionNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ExtensionNavigationController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		56D0EFC28FD211ED0DBFA418 /* Pods-PegasusExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusExtension/Pods-PegasusExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		8A87127870E313975F8C25DE /* Pods_Pegasus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pegasus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B7BE1BB1AE0176800F8E794 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		9BC78EB01ADEB9B200B7DFE6 /* Pods_Pegasus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Pegasus.framework; path = "Pods/../build/Debug-iphoneos/Pods_Pegasus.framework"; sourceTree = "<group>"; };
 		A9D3A44BB9801DC7437D0E9D /* Pods_PegasusExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PegasusExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE5798BCD25659C510D7822 /* Pods-PegasusExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PegasusExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-PegasusExtension/Pods-PegasusExtension.release.xcconfig"; sourceTree = "<group>"; };
@@ -187,7 +184,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC78EB11ADEB9B200B7DFE6 /* Pods_Pegasus.framework in Frameworks */,
 				50C02F321A7C1372006B730D /* Social.framework in Frameworks */,
 				50C02F311A7C136B006B730D /* Accounts.framework in Frameworks */,
 				ACB280E8034CE0CF11AB8F76 /* Pods_PegasusExtension.framework in Frameworks */,
@@ -370,7 +366,6 @@
 		50C02F0B1A7BF417006B730D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B7BE1BB1AE0176800F8E794 /* Keys.plist */,
 				50C02F0C1A7BF417006B730D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -525,7 +520,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7BE1BC1AE0176800F8E794 /* Keys.plist in Resources */,
 				508B07BB1A48A4F600DC2375 /* AuthViewController.xib in Resources */,
 				50C02EF51A7AD00C006B730D /* MetadataViewController.xib in Resources */,
 				508B07CC1A49C1A000DC2375 /* SettingsViewController.xib in Resources */,
@@ -908,8 +902,7 @@
 					"$(inherited)",
 					"\"$PODS_FRAMEWORK_BUILD_PATH\"",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = 
-				(
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
 				);
