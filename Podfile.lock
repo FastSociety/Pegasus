@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   VIMNetworking:
-    :commit: 35736a655497784f9cffd3e86f03e661ac8e91de
+    :commit: c6104f55a66818c0a2f70685155fcdf966a9c7a3
     :git: https://github.com/FastSociety/VIMNetworking.git
 
 SPEC CHECKSUMS:
