@@ -741,10 +741,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -837,8 +834,8 @@
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				INFOPLIST_FILE = VimeoUploaderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -871,6 +868,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "\"$PODS_FRAMEWORK_BUILD_PATH\"";
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
 					"UPLOAD_EXTENSION=1",
 					"DEBUG=1",
 				);
@@ -884,7 +882,7 @@
 					"-framework",
 					"\"VIMNetworking\"",
 				);
-				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
+				OTHER_LIBTOOLFLAGS = "$(inherited) $(OTHER_LDFLAGS)";
 				PRODUCT_NAME = PegasusExtension;
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -900,7 +898,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "\"$PODS_FRAMEWORK_BUILD_PATH\"";
-				GCC_PREPROCESSOR_DEFINITIONS = "UPLOAD_EXTENSION=1";
+				GCC_PREPROCESSOR_DEFINITIONS = 
+				(
+					"$(inherited)",
+					"DEBUG=1",
+				);
 				INFOPLIST_FILE = UploadExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -911,7 +913,7 @@
 					"-framework",
 					"\"VIMNetworking\"",
 				);
-				OTHER_LIBTOOLFLAGS = "$(OTHER_LDFLAGS)";
+				OTHER_LIBTOOLFLAGS = "$(inherited) $(OTHER_LDFLAGS)";
 				PRODUCT_NAME = PegasusExtension;
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;

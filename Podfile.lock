@@ -35,11 +35,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   VIMNetworking:
-    :commit: 35736a655497784f9cffd3e86f03e661ac8e91de
+    :commit: 9017eaa52c550bd6a1715ce4b42064e3ef50f1c3
     :git: https://github.com/FastSociety/VIMNetworking.git
 
 SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  VIMNetworking: de84d06900af4ae91e8374b4320577a080da0177
+  VIMNetworking: 5a7f71756ba64fb1c8ba49f105de7b3f836513db
 
-COCOAPODS: 0.36.3
+COCOAPODS: 0.36.4
