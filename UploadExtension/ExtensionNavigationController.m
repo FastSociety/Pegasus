@@ -38,16 +38,21 @@
 
 #import <MobileCoreServices/MobileCoreServices.h>
 
-static NSString *ClientKey = @"7fa5b9aa5518a3f1e189bc9d019ec31b023566ed";
-static NSString *ClientSecret = @"cad8525e7943d4711776b971f3f719422e21d77c";
+// get from Keys.plist ignored file
+static NSString *ClientKey = @"";
+static NSString *ClientSecret = @"";
+
+
 static NSString *Scope = @"private public create edit delete interact upload";
 
-static NSString *BackgroundSessionIdentifierApp = @"com.vimeo.pegasus.background_session_identifier.app";
-static NSString *BackgroundSessionIdentifierExtension = @"com.vimeo.pegasus.background_session_identifier.extension";
-static NSString *SharedContainerID = @"group.com.vimeo.pegasus";
+// modified 
 
-static NSString *KeychainAccessGroup = @"35R365FS4Q.com.vimeo.pegasus.shared_keychain";
-static NSString *KeychainService = @"com.vimeo.pegasus.keychain_service";
+static NSString *BackgroundSessionIdentifierApp = @"com.fastsociety.pegasus.background_session_identifier.app";
+static NSString *BackgroundSessionIdentifierExtension = @"com.fastsociety.pegasus.background_session_identifier.extension";
+static NSString *SharedContainerID = @"group.com.fastsociety.pegasus";
+
+static NSString *KeychainAccessGroup = @"7U2G7KY8MH.com.fastsociety.pegasus.shared_keychain";
+static NSString *KeychainService = @"com.fastsociety.pegasus.keychain_service";
 
 static NSString *ExtensionErrorDomain = @"ExtensionErrorDomain";
 
