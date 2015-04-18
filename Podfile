@@ -16,11 +16,11 @@ inhibit_all_warnings!
 use_frameworks!
 
 target "Pegasus" do
-  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod', :submodules => true
+  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod_framework', :submodules => true
 end
 
 target "PegasusExtension" do
-  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod', :submodules => true
+  pod 'VIMNetworking', :git => 'https://github.com/FastSociety/VIMNetworking.git',  :branch => 'cocoapod_framework', :submodules => true
 end
 
 post_install do |installer_representation|

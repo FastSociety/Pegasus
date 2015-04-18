@@ -25,21 +25,21 @@ PODS:
 
 DEPENDENCIES:
   - VIMNetworking (from `https://github.com/FastSociety/VIMNetworking.git`, branch
-    `cocoapod`)
+    `cocoapod_framework`)
 
 EXTERNAL SOURCES:
   VIMNetworking:
-    :branch: cocoapod
+    :branch: cocoapod_framework
     :git: https://github.com/FastSociety/VIMNetworking.git
     :submodules: true
 
 CHECKOUT OPTIONS:
   VIMNetworking:
-    :commit: 01c4142e39b7776e00ccd600e98bbe4b3cf8e843
+    :commit: 7a06e6e3151f89024304a55b97e5e6beec11fb41
     :git: https://github.com/FastSociety/VIMNetworking.git
 
 SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  VIMNetworking: 5a7f71756ba64fb1c8ba49f105de7b3f836513db
+  VIMNetworking: b6f4408314768a516149f766c0879cffb27e9cf8
 
 COCOAPODS: 0.36.4
